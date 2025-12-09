@@ -17,11 +17,6 @@
             key-positions = <0 1>;
             bindings = <&kp ESC>;
         };
-
-        hyperkey {
-            bindings = <&kp LG(LA(LC(LEFT_SHIFT)))>;
-            key-positions = <12 37>;
-        };
     };
 
     behaviors {
