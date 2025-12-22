@@ -88,10 +88,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB                     &kp N1  &kp N2      &kp N3            &kp N4      &kp N5       &kp N6             &kp N7           &kp N8         &kp N9     &kp N0          &kp BACKSPACE
-&kp LG(LA(LC(LEFT_SHIFT)))  &trans  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT  &trans       &kp LEFT           &kp DOWN         &kp UP         &kp RIGHT  &kp MINUS       &kp EQUAL
-&kp LSHFT                   &trans  &trans      &trans            &trans      &trans       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &email         &trans     &kp UNDERSCORE  &kp PLUS
-                                                &kp LGUI          &trans      &kp SPACE    &kp RET            &trans           &kp RIGHT_GUI
+&kp TAB                     &kp N1                   &kp N2                &kp N3                        &kp N4                &kp N5                               &kp N6                             &kp N7               &kp N8               &kp N9                &kp N0                    &kp BACKSPACE
+&kp LG(LA(LC(LEFT_SHIFT)))  &hrm LEFT_CONTROL SPACE  &hrm LEFT_ALT C_PREV  &hrm LEFT_SHIFT C_PLAY_PAUSE  &hrm LEFT_GUI C_NEXT  &hrm LA(LC(LG(LEFT_SHIFT))) SPACE    &hrm RA(RC(RG(RIGHT_SHIFT))) LEFT  &hrm RIGHT_GUI DOWN  &hrm RIGHT_SHIFT UP  &hrm RIGHT_ALT RIGHT  &hrm RIGHT_CONTROL MINUS  &kp EQUAL
+&kp LSHFT                   &trans                   &trans                &trans                        &trans                &trans                               &kp C_VOLUME_DOWN                  &kp C_VOLUME_UP      &email               &trans                &kp UNDERSCORE            &kp PLUS
+                                                                           &kp LEFT_ALT                  &trans                &kp SPACE                            &kp RET                            &trans               &kp RIGHT_GUI
             >;
         };
 
